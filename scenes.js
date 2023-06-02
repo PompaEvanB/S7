@@ -1,4 +1,4 @@
-
+/*
 class titleScreen extends Phaser.Scene{
     constructor(){
         super("titleScreen");
@@ -150,7 +150,7 @@ class victory extends Phaser.Scene{
     }
     
 }
-
+*/
 class gameplay extends Phaser.Scene{
 
     constructor(){
@@ -241,7 +241,8 @@ const config = {
         }
     },
     backgroundColor: '#4a90e2',
-    scene: [gameplay, titleScreen, victory]
+    //scene: [gameplay, titleScreen, victory]
+    scene: [gameplay]
 };
 
 let game = new Phaser.Game(config);
